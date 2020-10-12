@@ -1,0 +1,25 @@
+{
+  "prefix": ".",
+  "botToken": "000",
+  "modules": ["Utility", "Fun", "Games", "Writing"],
+  "version": "1.0.0",
+  "versioninfo": "Copied bulk of code from different bot.",
+  "playing": "definitely not a robot.",
+  "channelReacts": [
+    {
+      "channel": "765306866506661898",
+      "react": "👋"
+    }
+  ],
+  "channels": {
+    "welcome": "693500714223272007",
+    "logs": "765306671807332362",
+    "cafe": "693498873083330654",
+  },
+  "emotes": {
+    "bookmark": "765308420327735296",
+    "wave": "👋",
+    "goodmorning": "🌄",
+    "goodnight": "🌛"
+  }
+}
