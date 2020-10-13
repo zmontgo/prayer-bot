@@ -8,7 +8,7 @@ module.exports.execute = async (client, message, args) => {
         .setDescription(
           'Orange: #FF8C00\nTangerine: #C54646\nPurple: #8B008B'
         )
-        .setColor('#750384');
+        .setColor('#C54646');
       return await message.channel.send(brandEmbed);
     } else if (args[0] == 'logo' || args[0] == 'icon') {
       const brandEmbed = new Discord.MessageEmbed()
@@ -28,7 +28,7 @@ module.exports.execute = async (client, message, args) => {
         .setThumbnail(
           'https://media.discordapp.net/attachments/765226048237076523/765348156623290388/prayerlogo4.png'
         )
-        .setColor('#750384');
+        .setColor('#C54646');
       return await message.channel.send(brandEmbed);
     }
   } else {
@@ -40,7 +40,7 @@ module.exports.execute = async (client, message, args) => {
       .setThumbnail(
         'https://media.discordapp.net/attachments/765226048237076523/765348156623290388/prayerlogo4.png'
       )
-      .setColor('#750384');
+      .setColor('#C54646');
     return await message.channel.send(brandEmbed);
   }
 };
