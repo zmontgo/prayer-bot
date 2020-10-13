@@ -16,7 +16,7 @@ module.exports = async (client, member) => {
       });
 
     let welcomeDM = new Discord.MessageEmbed()
-      .setColor('#750384')
+      .setColor('#C54646')
       .setTitle(':pray: __**Welcome to The Prayer Room!**__ :pray:')
       .setDescription('**This has some important information, and we suggest reading through it. It should take less than a minute.**')
       .addField(
